@@ -1,0 +1,21 @@
+#ifndef _ADC_CONFIG_H_
+#define _ADC_CONFIG_H_
+
+//prescaler options
+//ADC_PRESCALER_2 
+//ADC_PRESCALER_4 
+//ADC_PRESCALER_8 
+//ADC_PRESCALER_16
+//ADC_PRESCALER_32
+//ADC_PRESCALER_64
+//ADC_PRESCALER_128
+
+//RES
+//Eight bit
+//ten bit
+
+#define ADC_RESOLUTION EIGHT_BIT
+#define ADC_PRESCALAR ADC_PRESCALER_128
+#define ADC_TIMEOUT 50000
+
+#endif
